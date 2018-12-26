@@ -36,11 +36,10 @@ On the client side, we run the private key (a = 8) throuh a formula  (g^a MOD p)
 
 The client and server have exchanged only 4 numbers. 6 numbers are in total, 4 are known to the world, 2 remain unknown to the world. The client does not know about the private key of the server. The server does not know about the private key of the client. 
 
-What we do then is that we take these numbers, and we run it throught the formula again. 
-On the client, (encrypted key)^a MOD p = key = 16^8 MOD 149 = 129 
-
-On the server,  (encrypted key)^b MOD p = key = 5^6 MOD 149 = 129 
-As long that p and g are prime numbers, we will always get the same key on both sides. 
+What we do then is that we take these numbers, and we run it throught the formula again.   
+On the client, (encrypted key)^a MOD p = key = 16^8 MOD 149 = 129   
+On the server,  (encrypted key)^b MOD p = key = 5^6 MOD 149 = 129   
+As long that p and g are prime numbers, we will always get the same key on both sides.   
 
 Nodoby can calculate the final keys, unless they have access to the private keys on the client side and the server side. We did not use certificates to encrypt anything, we juste used p and g to produce a common key. A key that both sides can use. 
 
@@ -57,10 +56,10 @@ This process produces a key that is more computationaly complex with less math i
 ## Data Encryption Protocols
 
 Now that we know how keys are exchanged, let's talk about Data Encryption. 
-Here are the major Data Encryption Protocols :
-3DES (168 bits, invented in the 1980's). Well, it is vulnerable.
-AES (128 or 256 bits, invented int the 1990's) : Advanced Encryption System.
-ChaCha20 (much newer)
+Here are the major Data Encryption Protocols :  
+3DES (168 bits, invented in the 1980's). Well, it is vulnerable.  
+AES (128 or 256 bits, invented int the 1990's) : Advanced Encryption System.  
+ChaCha20 (much newer)  
 
 Theses protocols are used to encrypt data exchanged between the client and the server. On the server, we should not use 3DES as it is vulnerable. 
 
