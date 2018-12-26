@@ -28,7 +28,7 @@ In 1970's Whit Diffie and Martin Hellman figured out a way to exchange a key wit
 Here is the simplified logic: 
 When we set up HTTPS on a server you have to install a certificate. The certificate won't be used for the encryption entirely. At some point in the negotiation between the client and the server, the server will send its certificate to the client. 
 
-##### Let's do some math
+#### Let's do some math
 
 In this certifcate two numbers are relevant, p and g. p and g are public keys (available to anyone) and we set  p = 149 and g = 17 for our example. In paralell, the client as the server detain their own private keys.
 
