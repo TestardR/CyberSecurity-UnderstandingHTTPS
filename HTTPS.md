@@ -38,6 +38,7 @@ The client and server have exchanged only 4 numbers. 6 numbers are in total, 4 a
 
 What we do then is that we take these numbers, and we run it throught the formula again. 
 On the client, (encrypted key)^a MOD p = key = 16^8 MOD 149 = 129 
+
 On the server,  (encrypted key)^b MOD p = key = 5^6 MOD 149 = 129 
 As long that p and g are prime numbers, we will always get the same key on both sides. 
 
