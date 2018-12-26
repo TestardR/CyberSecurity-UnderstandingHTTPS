@@ -28,6 +28,8 @@ In 1970's Whit Diffie and Martin Hellman figured out a way to exchange a key wit
 Here is the simplified logic: 
 When we set up HTTPS on a server you have to install a certificate. The certificate won't be used for the encryption entirely. At some point in the negotiation between the client and the server, the server will send its certificate to the client. 
 
+##### Let's do some math
+
 In this certifcate two numbers are relevant, p and g. p and g are public keys (available to anyone) and we set  p = 149 and g = 17 for our example. In paralell, the client as the server detain their own private keys.
 
 On the client side, we run the private key (a = 8) throuh a formula  (g^a MOD p) to calculate an encrypted key, for instance 17^8 MOD 149 = 5. During the handshake process between the server and the client, the client will send its encrypted key to the server. The whole world knows about number 5, 17 and 149. On the server side, we repeat the same process. We pick a private key (b = 6), run it through our formula (g^b MOD p)  to obtain a second encrypted key, 17^6 MOD 149 = 16. Then , the server will send its encrypted key to the server. 
