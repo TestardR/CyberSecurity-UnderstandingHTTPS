@@ -9,7 +9,7 @@ url: https://app.pluralsight.com/player?course=ps-live-2018-get-your-geek-on-sec
 
 HTTPS (HyperText Transfer Protocol Secure) protects your data over the web. But how does it really work ? HTTPS is widely misunderstood, we often hear that keys are used to encrypt data and keys are part of certificates. There are public and private certificates. We use the public certificate to encrypt data and the server will use the private certicate to decrypt it. Well, it is far from what is really going on... Certificates are not used almost at all in HTTPS. It uses a completely different style of encryption...
 
-So let's a dive into it !
+So let's dive into it !
 
 ## Web Browser Encryption
 
