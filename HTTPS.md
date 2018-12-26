@@ -1,7 +1,8 @@
 # What is HTTPS (HyperText Transfer Protocol Secure) ?
 
-This article was done using my notes from a brilliant speech, recently made by Ross Bagurdes in 2018 : 
-"Understanding How HTTPS Protects Your Data with Ross Bagurdes (2018) at Pluralsight LIVE 2018: Get Your Geek On (Security).
+This article was done using my notes from a brilliant speech, recently made by Ross Bagurdes in 2018.
+
+Bagurdes R.(2018). "Understanding How HTTPS Protects Your Data", Pluralsight LIVE 2018: Get Your Geek On (Security),
 url: https://app.pluralsight.com/player?course=ps-live-2018-get-your-geek-on-security&author=pluralsight-live&name=3a422490-c02c-4074-a3fd-a406c28c5063&clip=0&mode=live
 
 ## HTTPS is commonly misunderstood
@@ -14,7 +15,7 @@ So let's a deep look at it !
 
 Web browser encryption is usely done through two components : Negotiate Encryption Session and Encryption Algorithms. So, what are those ?  First of all, to transfer data over the web, we need to negotiate an encryption session between the client and the server using TLS. which are the same protocol. Second of all, the protocol we use (TLS v1.2 or TLS v1.3) to negotiate our session will then determine the encryption algorithms used (RSA, Diffie-Hellman, ECDHE, 3DES, AES, ChaCha20).
 
-## The problem and the solutions with Encrypting Data
+### The problem and the solutions with Encrypting Data
 
 Encrypting Communication relies on the following logic. The web browsers runs the data through an algorithm and a secret to produce a secret message. We send it through the public wire. Then, the server decrypts the message with the same algorithm and key. A problem comes up : we use symetric encryption to realise this task. We need the same key on the server and on the client. But we can't send the key over the public internet as it would defeat its purpose. We overcame this problem using HTTPS. As we encrypt data, we need a way to exchange the key between our client and our server. 
 
