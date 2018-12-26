@@ -1,4 +1,4 @@
-# What is HTTPS (HyperText Transfer Protocol Secure) ?
+# What really is HTTPS ?
 
 This article was done using my notes from a brilliant speech, recently made by Ross Bagurdes in 2018.
 
@@ -7,7 +7,7 @@ url: https://app.pluralsight.com/player?course=ps-live-2018-get-your-geek-on-sec
 
 ## HTTPS is commonly misunderstood
 
-HTTPS protects your data over the web. But how does it really work ? HTTPS is widely misunderstood, we often hear that keys are used to encrypt data and keys are part of certificates. There are public and private certificates. We use the public certificate to encrypt data and the server will use the private certicate to decrypt it. Well, it is far from what is really going on... Certificates are not used almost at all in HTTPS. It uses a completely different style of encryption...
+HTTPS (HyperText Transfer Protocol Secure) protects your data over the web. But how does it really work ? HTTPS is widely misunderstood, we often hear that keys are used to encrypt data and keys are part of certificates. There are public and private certificates. We use the public certificate to encrypt data and the server will use the private certicate to decrypt it. Well, it is far from what is really going on... Certificates are not used almost at all in HTTPS. It uses a completely different style of encryption...
 
 So let's a deep look at it !
 
