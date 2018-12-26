@@ -2,7 +2,7 @@
 
 This article was done using my notes from a brilliant speech, recently made by Ross Bagurdes in 2018.
 
-Bagurdes R.(2018). "Understanding How HTTPS Protects Your Data", Pluralsight LIVE 2018: Get Your Geek On (Security),
+Bagurdes R., (2018). "Understanding How HTTPS Protects Your Data", Pluralsight LIVE 2018: Get Your Geek On (Security),
 url: https://app.pluralsight.com/player?course=ps-live-2018-get-your-geek-on-security&author=pluralsight-live&name=3a422490-c02c-4074-a3fd-a406c28c5063&clip=0&mode=live
 
 ## HTTPS is commonly misunderstood
