@@ -13,7 +13,7 @@ So let's dive into it !
 
 ## Web Browser Encryption
 
-Web browser encryption is usely done through two components : Negotiate Encryption Session and Encryption Algorithms. So, what are those ?  First of all, to transfer data over the web, we need to negotiate an encryption session between the client and the server using TLS. which are the same protocol. Second of all, the protocol we use (TLS v1.2 or TLS v1.3) to negotiate our session will then determine the encryption algorithms used (RSA, Diffie-Hellman, ECDHE, 3DES, AES, ChaCha20).
+Web browser encryption is usely done through two components : Negotiate Encryption Session and Encryption Algorithms. So, what are those ?  First of all, to transfer data over the web, we need to negotiate an encryption session between the client and the server using TLS.  Second of all, the protocol we use (TLS v1.2 or TLS v1.3) to negotiate our session will then determine the encryption algorithms used (RSA, Diffie-Hellman, ECDHE, 3DES, AES, ChaCha20).
 
 ### The problem and the solutions with Encrypting Data
 
