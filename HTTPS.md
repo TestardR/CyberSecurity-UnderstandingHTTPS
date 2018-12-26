@@ -57,9 +57,9 @@ This process produces a key that is more computationaly complex with less math i
 
 Now that we know how keys are exchanged, let's talk about Data Encryption. 
 Here are the major Data Encryption Protocols :  
-3DES (168 bits, invented in the 1980's). Well, it is vulnerable.  
-AES (128 or 256 bits, invented int the 1990's) : Advanced Encryption System.  
-ChaCha20 (much newer)  
+1. 3DES (168 bits, invented in the 1980's). Well, it is vulnerable.  
+2. AES (128 or 256 bits, invented int the 1990's) : Advanced Encryption System.  
+3. ChaCha20 (much newer)  
 
 Theses protocols are used to encrypt data exchanged between the client and the server. On the server, we should not use 3DES as it is vulnerable. 
 
