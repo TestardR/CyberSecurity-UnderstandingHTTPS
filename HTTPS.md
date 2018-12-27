@@ -1,4 +1,4 @@
-# How HTTPS really protects data ?
+# How does HTTPS really protect data ?
 
 This article was done using my notes from a brilliant speech, recently made by Ross Bagurdes in 2018.
 
